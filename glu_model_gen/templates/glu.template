@@ -1,0 +1,21 @@
+
+        {
+            "agent": "%(agent)s",
+            "mountPoint": "%(mountPoint)s",
+	    "script": "%(script)s",
+	    "initParameters": {
+		"port": "%(port)s",
+		"service": "%(service)s",
+		"version": "%(version)s"
+		},
+	    "metadata": {
+		"env": "production",
+		"service": "%(service)s",
+		"version": "%(version)s"
+		}
+	     "tags": [
+		"SVS"
+		]
+	}
+    	
+
